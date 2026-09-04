@@ -19,6 +19,5 @@ html = html.replace(
 )
 
 // Keep title as PW486 (unified)
-
 writeFileSync(path, html)
 console.log('patched', path)
