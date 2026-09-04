@@ -1,0 +1,74 @@
+[
+  {
+    "name": "FlyConvert",
+    "url": "https://fly-convert.vercel.app/",
+    "image": "https://fly-convert.vercel.app/og-image-en.png",
+    "label": "Screen 9 flight meta-search platforms at once to find the cheapest fare. Paste any flight link to instantly verify if it's truly the lowest price."
+  },
+  {
+    "name": "Schengen Calculator",
+    "url": "https://schengen-visa-calc.vercel.app/",
+    "image": "https://schengen-visa-calc.vercel.app/og-image.png",
+    "label": "Calculate your Schengen 90/180-day visa-free stay. Track stays, check remaining days, plan a future entry, and find your latest exit date — everything is stored locally — nothing is sent to a server."
+  },
+  {
+    "name": "Where2Live",
+    "url": "https://where2live-index.vercel.app/",
+    "image": "https://where2live-index.vercel.app/opengraph-image.png",
+    "label": "Find your next base: digital nomad cities compared equally on monthly Airbnb rent and Numbeo Safety Index, with neighborhood guides and essential services."
+  },
+  {
+    "name": "World Food Map",
+    "url": "https://world-foodmap.vercel.app/",
+    "image": "https://world-foodmap.vercel.app/og-image.png",
+    "label": "Tap a country to see what people cook there. Local names, photos, and a short note on dishes from 200+ countries."
+  },
+  {
+    "name": "Bon Voyage!",
+    "url": "https://bon-voyage-planner.vercel.app/",
+    "image": "https://bon-voyage-planner.vercel.app/opengraph-image.png",
+    "label": "Plot stops on a map and choose how you travel between them. Search, drag to reorder, and share the route as a link."
+  },
+  {
+    "name": "Kooda",
+    "url": "https://kooda-lang.vercel.app/",
+    "image": "https://kooda-lang.vercel.app/og-image.jpg",
+    "label": "Free Korean lessons for the language people actually speak. Hangul, K-drama phrases, and everyday conversation. 240 lessons, no account needed."
+  },
+  {
+    "name": "Space Sweeper: Survivors",
+    "url": "https://pw486.itch.io/space-sweeper",
+    "image": "https://img.itch.zone/aW1nLzI5NTQzNTQ4LnBuZw==/original/WCgX%2B%2F.png",
+    "label": "Sweep alien swarms, evolve sci-fi weapons and survive your 12-minute shift."
+  },
+  {
+    "name": "Solace Isle",
+    "url": "https://pw486.itch.io/solace-isle",
+    "image": "https://img.itch.zone/aW1nLzI5NjkyMjU5LnBuZw==/original/pBRxwE.png",
+    "label": "A cozy island life with three cats. Build a home, decorate, fish the quiet pond, and live slowly."
+  },
+  {
+    "name": "InfinitePuppy",
+    "url": "https://infinite-puppy.vercel.app/",
+    "image": "https://infinite-puppy.vercel.app/og-image.png",
+    "label": "Explore an infinite world of adorable puppies and discover pure joy in every scroll."
+  },
+  {
+    "name": "EditNow",
+    "url": "https://editnow.vercel.app/",
+    "image": "https://editnow.vercel.app/og-image.png",
+    "label": "EditNow is a free, browser-based canvas editor. No sign-up or uploads required. Everything stays in your browser and saves automatically. Add images, text, shapes, and drawings, then export or copy your work as a PNG."
+  },
+  {
+    "name": "Cinder Paper",
+    "url": "https://cinder-paper.vercel.app/",
+    "image": "https://cinder-paper.vercel.app/og-image.png",
+    "label": "A notebook with no memory. Write everything down, then watch it burn to ash. Nothing is saved, nothing follows you."
+  },
+  {
+    "name": "The Quiet Observer",
+    "url": "https://blog-observer.vercel.app/",
+    "image": "https://blog-observer.vercel.app/og-image.png",
+    "label": "A sanctuary for deep philosophical thoughts, essays on life, and quiet observations in a fast-paced world."
+  }
+]

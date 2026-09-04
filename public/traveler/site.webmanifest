@@ -1,0 +1,27 @@
+{
+     "name": "Donggeon Lim · PW486",
+     "short_name": "PW486",
+     "icons": [
+         {
+             "src": "/traveler/profile.jpg",
+             "sizes": "180x180",
+             "type": "image/jpeg",
+             "purpose": "any"
+         },
+         {
+             "src": "/traveler/web-app-manifest-192x192.png",
+             "sizes": "192x192",
+             "type": "image/png",
+             "purpose": "maskable"
+         },
+         {
+             "src": "/traveler/web-app-manifest-512x512.png",
+             "sizes": "512x512",
+             "type": "image/png",
+             "purpose": "maskable"
+         }
+     ],
+     "theme_color": "#120c05",
+     "background_color": "#120c05",
+     "display": "standalone"
+ }
