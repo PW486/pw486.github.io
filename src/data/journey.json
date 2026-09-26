@@ -35,7 +35,7 @@
   {"flag": "🇨🇦", "city": "Vancouver", "country": "Canada"},
   {"flag": "🇺🇸", "city": "Seattle", "country": "United States"},
   {"flag": "🇨🇦", "city": "Toronto", "country": "Canada"},
-  {"flag": "🇰🇷", "city": "Jeju", "country": "South Korea"},
+  {"flag": "🇰🇷", "city": "Jeju", "country": "South Korea", "gallery": ["/images/jeju-1.webp", "/images/jeju-2.webp", "/images/jeju-3.webp"]},
   {"flag": "🇰🇷", "city": "Yangju", "country": "South Korea"},
   {"flag": "🇯🇵", "city": "Nagoya", "country": "Japan", "gallery": ["/images/nagoya-1.webp", "/images/nagoya-2.webp", "/images/nagoya-3.webp"]},
   {"flag": "🇦🇺", "city": "Sydney", "country": "Australia"},

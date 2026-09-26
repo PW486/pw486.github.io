@@ -17,7 +17,7 @@ Personal landing pages for Donggeon Lim (PW486). Vite + React 19 + TypeScript, d
 - `src/pages/swe/Home.tsx` + `Home.css` — hero (GitHub/LinkedIn/Email, avatar `/profile.jpg`) + project grid
 - `src/pages/traveler/Travel.tsx` + `Travel.css` — same layout, warm palette (`--travel-*`), hero (Instagram/Email, avatar `/traveler/profile.jpg`), vertical timeline. `html.travel-html`/`body.travel-body` overrides outer background.
 - `src/data/projects.json` — home cards (`label` = `og:description`, `image` = `og:image` — see "Adding a new project")
-- `src/data/journey.json` — travel entries (88, oldest first, reversed in code). One city per line. Gallery is attached to the **first occurrence** of a city only; format: `"gallery": ["/images/{city-slug}-{n}.webp"]`. Paths MUST be root-absolute (`/images/...`) — relative paths break on `/travel` because the browser resolves them against `/travel/images/`.
+- `src/data/journey.json` — travel entries (88, oldest first, reversed in code). One city per line. Gallery format: `"gallery": ["/images/{city-slug}-{n}.webp"]`. Paths MUST be root-absolute (`/images/...`) — relative paths break on `/travel` because the browser resolves them against `/travel/images/`.
 - `public/images/*` — travel gallery images, referenced by `journey.json`. Folder contents must equal the referenced set (no orphans). All `.webp`, width 1000px, quality 80, metadata (EXIF/GPS/IPTC) stripped.
 - `public/{profile.jpg,og-image.jpg,favicon.*}` — default (SWE) assets; `public/traveler/*` — traveler assets. `apple-touch-icon.png` and `web-app-manifest-*.png` are generated from `profile.jpg` (180/192/512). `og-image.jpg` is 1200×630 generated from `profile.jpg`.
 - `index.html` — SWE OG/manifest/favicons (`/profile.jpg`, `/og-image.jpg`). Travel OG is patched at build (`scripts/patch-travel-html.js` → `dist/travel/index.html` uses `/traveler/*` and `og:url https://pw486.github.io/travel`) and swapped at runtime in `Travel.tsx`.
@@ -37,9 +37,8 @@ Personal landing pages for Donggeon Lim (PW486). Vite + React 19 + TypeScript, d
 ## Adding a new city / photos
 1. Add the city entry to `src/data/journey.json` (one line per city, keep oldest-first order).
 2. Drop original photos anywhere temporarily, then run `python3 scripts/convert-images.py <src-dir>` to write `public/images/{city-slug}-{n}.webp`.
-3. Add `"gallery": ["/images/{city-slug}-1.webp", ...]` to the city's first entry in `journey.json`.
-4. If a city already exists in the timeline, append photos to its existing gallery instead of adding a duplicate gallery.
-5. Verify: every `journey.json` gallery path exists in `public/images`, and no orphan files remain in the folder.
+3. Add `"gallery": ["/images/{city-slug}-1.webp", ...]` to the city's entry in `journey.json` (gallery can go on any occurrence, e.g. a revisit entry).
+4. Verify: every `journey.json` gallery path exists in `public/images`, and no orphan files remain in the folder.
 
 ## Notes
 - Keep hero metrics identical between pages (3.5rem title, 100px avatar, 36px socials); only colors differ.
