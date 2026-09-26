@@ -86,5 +86,9 @@
   {"flag": "🇺🇿", "city": "Tashkent", "country": "Uzbekistan"},
   {"flag": "🇰🇬", "city": "Bishkek", "country": "Kyrgyzstan"},
   {"flag": "🇰🇬", "city": "Karakol", "country": "Kyrgyzstan", "gallery": ["/images/karakol-1.webp", "/images/karakol-2.webp"]},
-  {"flag": "🇰🇿", "city": "Almaty", "country": "Kazakhstan", "gallery": ["/images/almaty-1.webp", "/images/almaty-2.webp", "/images/almaty-3.webp", "/images/almaty-4.webp"]}
+  {"flag": "🇰🇿", "city": "Almaty", "country": "Kazakhstan", "gallery": ["/images/almaty-1.webp", "/images/almaty-2.webp", "/images/almaty-3.webp", "/images/almaty-4.webp"]},
+  {"flag": "🇮🇹", "city": "Sardinia", "country": "Italy", "gallery": ["/images/sardinia-1.webp", "/images/sardinia-2.webp", "/images/sardinia-3.webp"]},
+  {"flag": "🇮🇹", "city": "Sicily", "country": "Italy"},
+  {"flag": "🇮🇹", "city": "Naples", "country": "Italy"},
+  {"flag": "🇪🇸", "city": "Barcelona", "country": "Spain"}
 ]
