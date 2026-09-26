@@ -184,8 +184,7 @@ export default function Travel() {
                   className={`travel-timeline-item ${isRecent ? 'is-recent' : ''} ${isSecondRecent ? 'is-second' : ''}`}
                   variants={itemVariants}
                   initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.15 }}
+                  animate="visible"
                 >
                   <div className="travel-timeline-dot" aria-hidden />
                   <div className="travel-timeline-card">
