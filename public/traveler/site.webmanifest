@@ -23,5 +23,8 @@
      ],
      "theme_color": "#120c05",
      "background_color": "#120c05",
-     "display": "standalone"
+     "display": "standalone",
+     "id": "/travel",
+     "start_url": "/travel",
+     "scope": "/"
  }
