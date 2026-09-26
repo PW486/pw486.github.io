@@ -77,7 +77,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <Link to="/travel" className="hero-header hero-header-link" aria-label="Go to travel page" draggable={false} onDragStart={(e) => e.preventDefault()}>
+        <Link to="/travel" reloadDocument className="hero-header hero-header-link" aria-label="Go to travel page" draggable={false} onDragStart={(e) => e.preventDefault()}>
           <motion.div
             className="hero-avatar"
             initial={{ opacity: 0, scale: 0.8 }}
