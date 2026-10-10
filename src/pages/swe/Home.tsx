@@ -137,7 +137,7 @@ export default function Home() {
               </div>
               <div className="og-content">
                 <div className="og-title">{item.name}</div>
-                <div className="og-description">{item.label}</div>
+                <div className="og-description" title={item.label}>{item.label}</div>
                 <div className="og-cta">
                   Visit <FaArrowUpRightFromSquare size={12} />
                 </div>
