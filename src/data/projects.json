@@ -38,14 +38,14 @@
   {
     "name": "Space Sweeper: Survivors",
     "url": "https://pw486.itch.io/space-sweeper",
-    "image": "https://img.itch.zone/aW1nLzI5NTQzNTQ4LnBuZw==/original/WCgX%2B%2F.png",
-    "label": "Sweep alien swarms, evolve sci-fi weapons and survive your 12-minute shift."
+    "image": "https://img.itch.zone/aW1nLzMwNzE3NzE5LnBuZw==/original/Wsontx.png",
+    "label": "Dodge the swarm, draft your arsenal, and outlast the 12-minute shift — then keep going."
   },
   {
     "name": "Solace Isle",
     "url": "https://pw486.itch.io/solace-isle",
-    "image": "https://img.itch.zone/aW1nLzI5NjkyMjU5LnBuZw==/original/pBRxwE.png",
-    "label": "A cozy island life with three cats. Build a home, decorate, fish the quiet pond, and live slowly."
+    "image": "https://img.itch.zone/aW1nLzMwNzE2MjQyLnBuZw==/original/IaV1lG.png",
+    "label": "A cozy low-poly island life sim — build, fish, and relax as a cute cat."
   },
   {
     "name": "InfinitePuppy",
@@ -57,7 +57,7 @@
     "name": "EditNow",
     "url": "https://editnow.vercel.app/",
     "image": "https://editnow.vercel.app/og-image.png",
-    "label": "EditNow is a free, browser-based canvas editor. No sign-up or uploads required. Everything stays in your browser and saves automatically. Add images, text, shapes, and drawings, then export or copy your work as a PNG."
+    "label": "EditNow is a free browser-based canvas editor with layers, selections/masks, adjustments, vector pen and brushes. No sign-up, autosaves locally, exports PNG/JPG/WebP/SVG and PSD."
   },
   {
     "name": "Cinder Paper",
