@@ -2,8 +2,8 @@
   {
     "name": "FlyConvert",
     "url": "https://fly-convert.vercel.app/",
-    "image": "https://fly-convert.vercel.app/og-image-en.png",
-    "label": "Screen 9 flight meta-search platforms at once to find the cheapest fare. Paste any flight link to instantly verify if it's truly the lowest price."
+    "image": "https://fly-convert.vercel.app/og-image.png",
+    "label": "Find the cheapest flights. Generate links for various flight platforms at once to compare side-by-side, and paste any link you found to verify the lowest fare."
   },
   {
     "name": "Schengen Calculator",
