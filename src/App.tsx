@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import Home from './pages/swe/Home'
 import Travel from './pages/traveler/Travel'
@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/travel" element={<Travel />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>
   )
