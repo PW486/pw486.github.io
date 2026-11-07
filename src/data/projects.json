@@ -1,5 +1,11 @@
 [
   {
+    "name": "Auto Link Clicker",
+    "url": "https://auto-link-clicker.vercel.app/",
+    "image": "https://auto-link-clicker.vercel.app/og-image.png",
+    "label": "Open links from a list, click the button you choose on each page, and close the tabs automatically. Supports up to 20 parallel tabs and CSS selector or text matching, in English and Korean."
+  },
+  {
     "name": "FlyConvert",
     "url": "https://fly-convert.vercel.app/",
     "image": "https://fly-convert.vercel.app/og-image.png",
