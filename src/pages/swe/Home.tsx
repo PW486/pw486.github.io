@@ -1,10 +1,26 @@
+import { useState, useEffect } from 'react'
 import { motion, easeOut } from 'framer-motion'
-import { FaGithub, FaLinkedinIn, FaArrowUpRightFromSquare, FaRegEnvelope } from 'react-icons/fa6'
+import { FaGithub, FaLinkedinIn, FaArrowUpRightFromSquare, FaRegEnvelope, FaArrowUp } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import projects from '../../data/projects.json'
 import './Home.css'
 
 export default function Home() {
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => {
+      setShowScrollTop(window.scrollY > 300)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   const socialLinks = [
     {
       name: 'GitHub',
@@ -150,6 +166,15 @@ export default function Home() {
       <footer className="footer">
         <p>© {new Date().getFullYear()} Donggeon Lim · PW486</p>
       </footer>
+
+      <button
+        type="button"
+        className={`scroll-top-btn ${showScrollTop ? 'visible' : ''}`}
+        onClick={scrollToTop}
+        aria-label="Scroll to top"
+      >
+        <FaArrowUp size={16} />
+      </button>
     </div>
   )
 }

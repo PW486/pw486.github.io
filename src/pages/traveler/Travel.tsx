@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, easeOut } from 'framer-motion'
-import { FaInstagram, FaRegEnvelope } from 'react-icons/fa6'
+import { FaInstagram, FaRegEnvelope, FaArrowUp } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import './Travel.css'
 
@@ -16,6 +16,21 @@ type TravelEntry = {
 const travelEntries = [...(journeyData as TravelEntry[])].reverse()
 
 export default function Travel() {
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => {
+      setShowScrollTop(window.scrollY > 300)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   useEffect(() => {
     document.documentElement.classList.add('travel-html')
     document.body.classList.add('travel-body')
@@ -220,6 +235,15 @@ export default function Travel() {
           <p>© {new Date().getFullYear()} Donggeon Lim · PW486</p>
         </footer>
       </div>
+
+      <button
+        type="button"
+        className={`travel-scroll-top-btn ${showScrollTop ? 'visible' : ''}`}
+        onClick={scrollToTop}
+        aria-label="Scroll to top"
+      >
+        <FaArrowUp size={16} />
+      </button>
     </div>
   )
 }
