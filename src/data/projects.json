@@ -1,5 +1,11 @@
 [
   {
+    "name": "OnlyDM",
+    "url": "https://only-dm.vercel.app/",
+    "image": "https://only-dm.vercel.app/assets/og-image.png",
+    "label": "A lightweight desktop client for Instagram DM. Stay focused on conversations without the feed."
+  },
+  {
     "name": "Auto Link Clicker",
     "url": "https://auto-link-clicker.vercel.app/",
     "image": "https://auto-link-clicker.vercel.app/og-image.png",
