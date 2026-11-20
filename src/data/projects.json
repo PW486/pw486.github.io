@@ -9,7 +9,7 @@
     "name": "Auto Link Clicker",
     "url": "https://auto-link-clicker.vercel.app/",
     "image": "https://auto-link-clicker.vercel.app/og-image.png",
-    "label": "Open links from a list, click the button you choose on each page, and close the tabs automatically. Supports up to 20 parallel tabs and CSS selector or text matching, in English and Korean."
+    "label": "Open links from a list, click the button you choose on each page, and close the tabs automatically. Supports up to 100 parallel tabs and CSS selector or text matching, in English and Korean."
   },
   {
     "name": "FlyConvert",
@@ -21,7 +21,7 @@
     "name": "Schengen Calculator",
     "url": "https://schengen-visa-calc.vercel.app/",
     "image": "https://schengen-visa-calc.vercel.app/og-image.png",
-    "label": "Calculate your Schengen 90/180-day visa-free stay. Track stays, check remaining days, plan a future entry, and find your latest exit date — everything is stored locally — nothing is sent to a server."
+    "label": "Calculate your Schengen 90/180-day visa-free stay. Track stays, check remaining days, plan a future entry, and find your latest exit date — your stay data is saved only in your browser, and no account is needed."
   },
   {
     "name": "Where2Live",
